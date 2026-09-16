@@ -209,3 +209,9 @@ count, or date range in `generate_data.py`.
   objective reflecting the true cost of a missed failure vs. a false
   alarm.
 <img width="975" height="825" alt="roc_curve" src="https://github.com/user-attachments/assets/4a007f55-b60d-4cc5-b537-2bfefb1bfbfb" />
+<img width="1350" height="1050" alt="feature_importance" src="https://github.com/user-attachments/assets/aa077d91-4120-4c02-95b2-7b3fc6f47561" />
+<img width="2100" height="900" alt="example_pump_timeline" src="https://github.com/user-attachments/assets/c8b47c1a-e44d-41e1-942d-6ad035b924d0" />
+<img width="900" height="750" alt="confusion_matrix" src="https://github.com/user-attachments/assets/2b0a287b-82b8-444d-8ced-f2a6575f994f" />
+
+
+
