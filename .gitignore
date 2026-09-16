@@ -1,6 +1,12 @@
 # Ignore raw data files and generated artifacts
 # Keep dataset and model outputs out of version control
-data/
-models/
-output/
-figures/
+data/pump_failure_events.csv
+data/pump_features.csv
+data/pump_sensor_data.csv
+
+models/pump_failure_model.joblib
+
+output/metrics_summary.csv
+output/metrics_summary.txt
+output/test_predctions.csv
+
