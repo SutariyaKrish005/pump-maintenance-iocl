@@ -1,16 +1,3 @@
-"""
-train_model.py
----------------
-Loads the feature-engineered pump dataset, performs a time-based
-train/test split (no shuffling, to avoid leakage), trains a
-RandomForestClassifier (with an optional XGBoost path) to predict
-failure_flag, evaluates it with precision/recall/F1/ROC-AUC/confusion
-matrix, plots diagnostics, and saves the model and metrics for reuse.
-
-Run:
-    python src/train_model.py
-"""
-
 import os
 import warnings
 
