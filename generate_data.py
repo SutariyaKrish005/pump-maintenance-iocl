@@ -1,20 +1,3 @@
-"""
-generate_data.py
------------------
-Generates realistic synthetic high-frequency sensor data for multiple
-refinery pumps, including simulated failure events preceded by gradual
-sensor anomalies (rising vibration/temperature, dropping suction
-pressure -- cavitation-like behavior). Saves the raw sensor log to
-../data/pump_sensor_data.csv, and the ground-truth failure event
-timestamps to ../data/pump_failure_events.csv (used later for the
-"hours since last failure" feature -- this is historical metadata that
-would be known operationally after the fact, not a leakage of the
-future).
-
-Run:
-    python src/generate_data.py
-"""
-
 import os
 import numpy as np
 import pandas as pd
