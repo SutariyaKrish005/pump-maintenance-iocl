@@ -1,15 +1,3 @@
-"""
-predict.py
-----------
-Loads the saved pump failure model and the feature-engineered dataset,
-regenerates predictions for the held-out test period (same time-based
-split and classification threshold used in train_model.py), and saves
-them to output/test_predictions.csv.
-
-Run:
-    python src/predict.py
-"""
-
 import os
 import warnings
 
