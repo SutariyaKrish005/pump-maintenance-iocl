@@ -1,20 +1,3 @@
-"""
-engineer_features.py
----------------------
-Loads the raw pump sensor log and the failure event log, and builds a
-feature-engineered dataset for the predictive maintenance classifier:
-rolling statistics, rate-of-change features, lag features, and
-operating-context features (hours since last failure, maintenance-due
-flag). All engineered features are computed causally (only using past
-and current readings, grouped per pump) so there is no leakage from
-the future into the feature matrix.
-
-Saves the processed dataset to ../data/pump_features.csv.
-
-Run:
-    python src/engineer_features.py
-"""
-
 import os
 import numpy as np
 import pandas as pd
