@@ -1,0 +1,6 @@
+# Ignore raw data files and generated artifacts
+# Keep dataset and model outputs out of version control
+data/
+models/
+output/
+figures/
